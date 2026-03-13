@@ -6,3 +6,9 @@ if(number>=0 and number<=100):
         print('number is not divisible by 8 and 12')
 else:
     print('please enter a number that is greater than or equal to 0 and less than or equal to 100')
+
+
+#method 2
+for i in range(1,101):
+    if i%8==0 and i%12==0:
+        print(i)
